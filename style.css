@@ -1,0 +1,23 @@
+#container{
+    height: 380px;
+    width: 360px;
+    background-color: aqua;
+    margin-left: 300px;
+    margin-top: 100px;
+    
+    border: solid black;
+}
+#button{
+    margin-left: 140px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+img{
+    height: 380px;
+    width: 360px;
+    margin-right: 40px;
+    
+}
