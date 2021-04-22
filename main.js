@@ -2,16 +2,17 @@ let images = ["download (1).jpg","download (2).jpg","download (3).jpg","download
 
 let button = document.getElementById('button');
 
-
+var a = 0;
 
 button.addEventListener('click',function(){
    
-     let randomimage = images[Math.floor(Math.random() * images.length)]
+     a++;
+    if(a > images.length-1){
+        a=0;
+    }
+    document.getElementById('img').src = images[a];
 
-var container = document.getElementById('container');
 
-document.getElementById('img');
-container.style.background= randomimage;
 
 
 })
